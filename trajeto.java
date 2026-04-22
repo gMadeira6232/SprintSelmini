@@ -18,7 +18,7 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
         } else if (!direcao.equalsIgnoreCase("direita")) {
@@ -45,7 +45,7 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
         } else if (!direcao.equalsIgnoreCase("frente")) {
@@ -72,7 +72,7 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
         } else if (!direcao.equalsIgnoreCase("direita")) {
@@ -99,10 +99,10 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
-        } else if (!direcao.equalsIgnoreCase("tras")) {
+        } else if (!direcao.equalsIgnoreCase("trás")) {
             System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
@@ -126,7 +126,7 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
     } else if (!direcao.equalsIgnoreCase("direita")) {
@@ -153,7 +153,7 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
         } else if (!direcao.equalsIgnoreCase("frente")) {
@@ -180,7 +180,7 @@ public class trajeto {
         if (!direcao.equalsIgnoreCase("direita")
                 && !direcao.equalsIgnoreCase("esquerda")
                 && !direcao.equalsIgnoreCase("frente")
-                && !direcao.equalsIgnoreCase("tras")) {
+                && !direcao.equalsIgnoreCase("trás")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
             System.exit(0);
         } else if (!direcao.equalsIgnoreCase("direita")) {
@@ -199,7 +199,7 @@ public class trajeto {
         
         // CÁLCULO DO CUSTO OPERACIONAL
         custoTotal = totalCasas * 0.50;
-        System.out.printf("\nCusto total de: R$ %.2f\n", custoTotal);
+        System.out.printf("\nDestino alcançdo. \nCusto total de: R$ %.2f\n", custoTotal);
 
         // CLASSIFICAÇÃO DA ROTA
         if (custoTotal <= 5) {
