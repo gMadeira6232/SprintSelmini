@@ -15,8 +15,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("direita")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+        } else if (!direcao.equalsIgnoreCase("direita")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
@@ -27,7 +33,7 @@ public class trajeto {
         } else {
             System.out.println("\nMovimentando " + distancia + " casas para " + direcao);
             totalCasas += distancia;
-        }       
+        }
 
         // PAR DE COMANDO 2
         System.out.println("\nInforme a Direção de movimento do Robô (Frente, Trás, Esquerda, Direita): ");
@@ -36,8 +42,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("frente")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+        } else if (!direcao.equalsIgnoreCase("frente")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
@@ -48,7 +60,7 @@ public class trajeto {
         } else {
             System.out.println("\nMovimentando " + distancia + " casas para " + direcao);
             totalCasas += distancia;
-        } 
+        }
 
         // PAR DE COMANDO 3
         System.out.println("\nInforme a Direção de movimento do Robô (Frente, Trás, Esquerda, Direita): ");
@@ -57,8 +69,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("direita")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+        } else if (!direcao.equalsIgnoreCase("direita")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
@@ -69,7 +87,7 @@ public class trajeto {
         } else {
             System.out.println("\nMovimentando " + distancia + " casas para " + direcao);
             totalCasas += distancia;
-        } 
+        }
 
         // PAR DE COMANDO 4
         System.out.println("\nInforme a Direção de movimento do Robô (Frente, Trás, Esquerda, Direita): ");
@@ -78,8 +96,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("tras")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+        } else if (!direcao.equalsIgnoreCase("tras")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
@@ -90,7 +114,7 @@ public class trajeto {
         } else {
             System.out.println("\nMovimentando " + distancia + " casas para " + direcao);
             totalCasas += distancia;
-        } 
+        }
 
         // PAR DE COMANDO 5
         System.out.println("\nInforme a Direção de movimento do Robô (Frente, Trás, Esquerda, Direita): ");
@@ -99,8 +123,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("direita")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+    } else if (!direcao.equalsIgnoreCase("direita")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
@@ -120,8 +150,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("frente")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+        } else if (!direcao.equalsIgnoreCase("frente")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
@@ -141,8 +177,14 @@ public class trajeto {
         distancia = sc.nextInt();
 
         // VALIDAÇÃO DE COMANDOS
-        if (!direcao.equalsIgnoreCase("direita")) {
+        if (!direcao.equalsIgnoreCase("direita")
+                && !direcao.equalsIgnoreCase("esquerda")
+                && !direcao.equalsIgnoreCase("frente")
+                && !direcao.equalsIgnoreCase("tras")) {
             System.out.println("ERRO: COMANDO INVÁLIDO");
+            System.exit(0);
+        } else if (!direcao.equalsIgnoreCase("direita")) {
+            System.out.println("COMANDO INVÁLIDO: COLISÃO");
             System.exit(0);
         } else if (distancia <= 0) {
             System.out.println("ERRO: DISTÂNCIA INVÁLIDA");
