@@ -1,3 +1,5 @@
+// SEQUÊNCIA: DIREITA = 5, FRENTE = 6, DIREITA = 3, TRÁS = 4, DIREITA = 5, FRENTE = 2, DIREITA = 4
+
 import java.util.Scanner;
 
 public class trajeto {
